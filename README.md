@@ -1,3 +1,5 @@
+Este é um projeto feito em aula pelo Santander Bootcamp 2023 - Fullstack Java+Angular. O desafio é melhorar este projeto, criando mais componentes e entendendo melhor como trabalhar com Angular. Devido a falta de tempo, estou focando em terminar o curso primeiro e depois fazer as implementações nos desafios. Então este projeto ainda está em andamento. O desafio ainda não foi completo.
+
 # Store
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
