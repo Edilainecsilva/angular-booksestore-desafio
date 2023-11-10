@@ -1,17 +1,18 @@
-<a href="#" class="card__container">
+<a [routerLink]="['product', id]" class="card__container">
 	<img
 		class="card__img"
-		[src]=[gameCover]
+		src="{{ bookCover }}"
 		alt=""
 		srcset=""
 	>
 	<app-card-label
-		gameLabel="{{gameLabel}}"
+		bookLabel="{{bookLabel}}"
 	>
 	</app-card-label>
 	<app-card-pricing
-		gameType="{{gameType}}"
-		gamePrice="{{gamePrice}}"
+		bookTitle="{{bookTitle}}"
+		bookType="{{bookType}}"
+		bookPrice="{{bookPrice}}"
 	>
 	</app-card-pricing>
 </a>

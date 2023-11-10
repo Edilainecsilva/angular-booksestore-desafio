@@ -8,9 +8,16 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardPricingComponent implements OnInit {
 
 	@Input()
-	gameType:string ="Digital PS4"
+	bookCover:string = ""
 	@Input()
-	gamePrice:string = "R$ 399,90"
+	bookLabel:string=""
+	@Input()
+	bookTitle:string=""
+	@Input()
+	bookType:string =""
+	@Input()
+	bookPrice:string = ""
+
   constructor() { }
 
   ngOnInit(): void {

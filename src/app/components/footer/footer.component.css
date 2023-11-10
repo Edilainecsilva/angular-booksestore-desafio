@@ -1,0 +1,45 @@
+footer {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid black;
+	width: 90%;
+	height: 40px;
+	border-radius: 30px;
+	margin: 20px 70px;
+	margin-top: 40px;
+	padding: 20px;
+	background-color: rgb(47, 47, 47);
+	justify-content: center;
+}
+
+.footer_list{
+  display: flex;
+  align-items: center;
+}
+
+.footer_list > ul{
+	display: flex;
+	list-style-type: none;
+}
+
+.footer_list> ul > li {
+	padding: 8px;
+}
+
+.footer_list > ul > li > a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-family: 'Segoe UI';
+	padding: 8px;
+}
+
+h3 {
+	color: white;
+	padding-right: 200px;
+	text-align: left;
+}
+
+p {
+	color: white;
+	padding-left: 200PX;
+}

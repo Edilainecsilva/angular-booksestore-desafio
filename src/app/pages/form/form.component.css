@@ -1,0 +1,13 @@
+.form_contanier {
+	width: 60%;
+	height: 300px;
+	margin: 0px auto;
+	border: 1px solid black;
+	padding: 50px;
+}
+
+form {
+	text-align: center;
+	border: 1px solid red;
+
+}

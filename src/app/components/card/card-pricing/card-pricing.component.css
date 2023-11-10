@@ -5,7 +5,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 70px;
+	height: 90px;
 	background-color: rgba(0,0,0,0.8);
 	padding: 10px;
 	color: antiquewhite;
@@ -14,12 +14,24 @@
 
 .card-pricing__title{
 	margin-bottom: 3px;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.card-pricing__title > h3 > a{
+	text-decoration: none;
+	color: white;
+}
+.card-pricing__title > h3 > a:hover{
+	color: white;
 }
 
 .card-pricing__value{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	text-transform: uppercase;
 }
 
 .card-pricing__value__console{
@@ -31,4 +43,9 @@
 	font-weight: bolder;
 	color:aqua;
 	margin-right: 10px;
+}
+
+.card-pricing__value__money > p > a {
+	text-decoration: none;
+	color: white;
 }
