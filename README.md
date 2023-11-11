@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como parte do Santander Bootcamp 2023 - Fullstack 
 
 ## Descrição
 
-O projeto original, uma Store-Psn, foi modificado para se tornar uma Fake Book Store. A transformação incluiu a criação de novos componentes e o entendimento aprofundado do desenvolvimento com Angular. Agora, a aplicação simula uma livraria fictícia, proporcionando uma experiência de compra simplificada.
+O projeto original, uma Playstation Store Clone, foi modificado para se tornar uma Fake Book Store. A transformação incluiu a criação de novos componentes e o entendimento aprofundado do desenvolvimento com Angular. Agora, a aplicação simula uma livraria fictícia, proporcionando uma experiência de compra simplificada.
 
 ## Novas Funcionalidades
 
