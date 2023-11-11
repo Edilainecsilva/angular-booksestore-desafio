@@ -1,6 +1,8 @@
-# Projeto Anular - Desafio da Dio
+# Projeto Angular - Desafio da Dio
 
 Este projeto foi desenvolvido como parte do Santander Bootcamp 2023 - Fullstack Java + Angular, oferecido pela Digital Innovation One (DIO). O principal objetivo é aprimorar as habilidades em Angular, expandindo o projeto original apresentado em aula.
+
+![image](https://github.com/Edilainecsilva/angular-booksestore-desafio/assets/112878712/aa6a87bb-856e-4e4c-903a-35ac0b9ed289)
 
 ## Descrição
 
