@@ -1,4 +1,68 @@
-Este é um projeto feito em aula pelo Santander Bootcamp 2023 - Fullstack Java+Angular. O desafio é melhorar este projeto, criando mais componentes e entendendo melhor como trabalhar com Angular. Devido a falta de tempo, estou focando em terminar o curso primeiro e depois fazer as implementações nos desafios. Então este projeto ainda está em andamento. O desafio ainda não foi completo.
+# Projeto Anular - Desafio da Dio
+
+Este projeto foi desenvolvido como parte do Santander Bootcamp 2023 - Fullstack Java + Angular, oferecido pela Digital Innovation One (DIO). O principal objetivo é aprimorar as habilidades em Angular, expandindo o projeto original apresentado em aula.
+
+## Descrição
+
+O projeto original, uma Store-Psn, foi modificado para se tornar uma Fake Book Store. A transformação incluiu a criação de novos componentes e o entendimento aprofundado do desenvolvimento com Angular. Agora, a aplicação simula uma livraria fictícia, proporcionando uma experiência de compra simplificada.
+
+## Novas Funcionalidades
+
+1. **Visualização do Produto por ID:** Adicionou-se uma nova página que permite aos usuários visualizarem detalhes específicos de um livro, utilizando o identificador único do produto.
+
+2. **Trabalhe Conosco:** Foi introduzida uma página "Trabalhe Conosco" que possibilita aos usuários interessados enviar currículos à Fake Book Store, criando assim uma interação adicional.
+
+## Como Contribuir
+
+Se deseja contribuir para o desenvolvimento deste projeto, siga as instruções abaixo:
+
+1. Faça um fork do repositório
+2. Crie sua branch de feature (`git checkout -b feature/SuaFeature`)
+3. Faça commit de suas alterações (`git commit -m 'Adiciona funcionalidade incrível'`)
+4. Faça push para a branch (`git push origin feature/SuaFeature`)
+5. Abra um Pull Request
+
+## Como Executar o Projeto Localmente
+
+Certifique-se de ter o Angular CLI instalado globalmente. Se não tiver, você pode instalá-lo usando o seguinte comando:
+
+```bash
+npm install -g @angular/cli
+```
+
+Após isso, siga os passos abaixo:
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd seu-repositorio
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Inicie a aplicação:
+
+```bash
+ng serve
+```
+
+A aplicação estará disponível em `http://localhost:4200/`.
+
+## Agradecimentos
+
+Agradeço à Digital Innovation One pela oportunidade de participar do Santander Bootcamp 2023, proporcionando um ambiente de aprendizado desafiador e enriquecedor.
+
+Sinta-se à vontade para explorar o projeto e contribuir para o seu aprimoramento!
 
 # Store
 
