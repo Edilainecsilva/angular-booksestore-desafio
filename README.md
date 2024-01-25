@@ -12,7 +12,12 @@ O projeto original, uma Playstation Store Clone, foi modificado para se tornar u
 
 1. **Visualização do Produto por ID:** Adicionou-se uma nova página que permite aos usuários visualizarem detalhes específicos de um livro, utilizando o identificador único do produto.
 
-2. **Trabalhe Conosco:** Foi introduzida uma página "Trabalhe Conosco" que possibilita aos usuários interessados enviar currículos à Fake Book Store, criando assim uma interação adicional.
+2. **Trabalhe Conosco:** Foi introduzida uma página "Trabalhe Conosco" que possibilita aos usuários interessados enviar currículos à Fake Book Store. Criando assim uma interação adicional foi criada uma API externa, utilizando o conjunto de tecnologias .NET Core e SQL.
+  
+3. **Repositório da API:** [BooksEstore-API](https://github.com/Edilainecsilva/booksestoreApi).
+
+## Video do projeto: 
+[Link do video](https://www.youtube.com/watch?v=JbI179rQjo4).
 
 ## Como Contribuir
 
