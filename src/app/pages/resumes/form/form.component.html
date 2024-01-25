@@ -1,0 +1,51 @@
+<form #form="ngForm" (submit)="onSubmit(form)" class="form_contanier">
+	<input type="hidden" name="id" value="service.formData.id">
+	<div class="mb-3">
+		<label>Full Name</label>
+		<input class="form-control form-control-lg" placeholder="Your full name"
+		#fullName="ngModel" name="fullName"
+		[(ngModel)]="service.formData.fullName"
+		required="Nome precisa ser preenchido">
+	</div>
+
+	<div class="mb-3">
+		<label>E-mail</label>
+		<input class="form-control form-control-lg" placeholder="Your email adress"
+		#email="ngModel" name="email"
+		[(ngModel)]="service.formData.email">
+	</div>
+
+	<div class="mb-3">
+		<label>Phone Number</label>
+		<input class="form-control form-control-lg" placeholder="Your Phone Number"
+		#phoneNumber="ngModel" name="phoneNumber"
+		[(ngModel)]="service.formData.phoneNumber">
+	</div>
+
+	<div class="mb-3">
+		<label>Description </label>
+		<textarea class="form-control form-control-lg" placeholder="Write something"
+			#description="ngModel" name="description"
+			[(ngModel)]="service.formData.description">
+		</textarea>
+	</div>
+
+	<div class="d-grid buttonSubmit">
+		<button class="btn btn-lg btn-success" type="submit">
+			Submit
+		</button>
+	</div>
+</form>
+
+<!-- codigo antigo
+<div class="form_contanier">
+	<form>
+		<label>First name:</label><br>
+		<input type="text" id="fname" name="fname"><br>
+		<label>Last name:</label><br>
+		<input type="text" id="lname" name="lname"><br><br>
+		<input type="submit" value="Submit">
+	</form>
+
+</div>
+-->

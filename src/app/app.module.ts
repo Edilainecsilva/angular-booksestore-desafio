@@ -11,7 +11,12 @@ import { CardPricingComponent } from './components/card/card-pricing/card-pricin
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ProductComponent } from './pages/product/product.component';
-import { FormComponent } from './pages/form/form.component';
+import { FormComponent } from './pages/resumes/form/form.component';
+import { ResumesComponent } from './pages/resumes/resumes.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -24,11 +29,16 @@ import { FormComponent } from './pages/form/form.component';
     FooterComponent,
     AboutComponent,
     ProductComponent,
-    FormComponent
+    FormComponent,
+    ResumesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+		HttpClientModule,
+		FormsModule,
+		BrowserAnimationsModule, // required animations module
+    ToastrModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,19 @@
+.form_contanier {
+	width: 80%;
+	height: 100%;
+	margin: 10px;
+	border: 1px solid black;
+	padding: 50px;
+}
+
+.buttonSubmit {
+	padding-top: 40px;
+}
+
+:placeholder-shown{
+	font-size: 12px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}

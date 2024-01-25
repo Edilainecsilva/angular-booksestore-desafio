@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductComponent } from './pages/product/product.component';
-import { FormComponent } from './pages/form/form.component';
 import { AboutComponent } from './pages/about/about.component';
+import { ResumesComponent } from './pages/resumes/resumes.component';
 
 const routes: Routes = [
 	{
@@ -15,8 +15,8 @@ const routes: Routes = [
 		component:ProductComponent
 	},
 	{
-		path: 'form',
-		component:FormComponent
+		path: 'resumes',
+		component:ResumesComponent
 	},
 	{
 		path: 'about',
