@@ -22,7 +22,7 @@ export class ResumesComponent implements OnInit {
 				.subscribe({
 					next: res => {
 						this.toastr.error('Deletado com sucesso!', 'Curriculo deletado')
-						this.service.list = res as Resumes[]
+						this.service.refreshList();
 					},
 					error: err => { console.log(err)}
 				})
